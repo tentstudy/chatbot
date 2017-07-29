@@ -38,6 +38,7 @@
 	$data = getData($url);
 	$html = str_get_html($data);
 	$nameVideo = $html->find('p', 0)->plaintext;
+	$imageVideo = $html->find('img', 0)->src;
 	$table = $html->find('table', 0);
 	// echo $table;
 	foreach($table->find('tr') as $index => $tr){
@@ -54,6 +55,9 @@
 		$buttons[] = $bot->createButtonToURL($title, $linkDownload);
 	}
 
-	$text = $nameVideo;
-	$bot->sendTextCard($text, $buttons);
+	$title    = $nameVideo;
+	$image    = $imageVideo;
+	$subTitle = 'Create by https://chatbot.tentstudy.xyz';
+	$element  = $bot->createElement($title, $image, $subTitle, $buttons);
+	$bot->sendGallery($element);
 ?>

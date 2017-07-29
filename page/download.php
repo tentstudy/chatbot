@@ -24,7 +24,7 @@
 	$file = $_GET['url']; 
 	$filename = urldecode($_GET['name']);
 	$format = explode('.', $filename)[1];
-	$contentType = $contentTypes[$format];
+	$contentType = array_key_exists($format, $contentTypes) ? $contentTypes[$format] : 'text/plant';
 	header("Content-Description: File Transfer"); 
 	header("Content-Type: {$contentType}"); 
 	header("Content-Disposition: attachment; filename='" . $filename . "'"); 

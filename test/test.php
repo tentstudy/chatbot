@@ -1,1 +1,48 @@
-<a href="https://r1---sn-oguesnze.googlevideo.com/videoplayback?itag=22&mm=31&ip=45.76.211.250&ratebypass=yes&ipbits=0&dur=181.765&id=0dddac7a3cca57cb&pl=19&lmt=1477615426062299&ms=au&mv=m&mn=sn-oguesnze&key=yt6&mime=video/mp4&source=youtube&ei=GSt7WYytLfWIqQGwgraYBg&expire=1501265785&sparams=dur,ei,id,initcwndbps,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,pl,ratebypass,requiressl,source,expire&requiressl=yes&signature=D119C84186246F83EBBF738F6A668F6F4434FBF3.2FBCC397166E48E325121F7572E77B968EB2E4FD&mt=1501244069&initcwndbps=5131250&signature=D119C84186246F83EBBF738F6A668F6F4434FBF3.2FBCC397166E48E325121F7572E77B968EB2E4FD" title="" download>tải xuống</a>
+{
+ "messages": [
+    {
+      "attachment":{
+        "type":"template",
+        "payload":{
+          "template_type":"generic",
+          "elements":[
+            {
+              "title":"Classic White T-Shirt",
+              "image_url":"http://petersapparel.parseapp.com/img/item100-thumb.png",
+              "subtitle":"Soft white cotton t-shirt is back in style",
+              "buttons":[
+                {
+                  "type":"web_url",
+                  "url":"https://petersapparel.parseapp.com/view_item?item_id=100",
+                  "title":"View Item"
+                },
+                {
+                  "type":"web_url",
+                  "url":"https://petersapparel.parseapp.com/buy_item?item_id=100",
+                  "title":"Buy Item"
+                }
+              ]
+            },
+            {
+              "title":"Classic Grey T-Shirt",
+              "image_url":"http://petersapparel.parseapp.com/img/item101-thumb.png",
+              "subtitle":"Soft gray cotton t-shirt is back in style",
+              "buttons":[
+                {
+                  "type":"web_url",
+                  "url":"https://petersapparel.parseapp.com/view_item?item_id=101",
+                  "title":"View Item"
+                },
+                {
+                  "type":"web_url",
+                  "url":"https://petersapparel.parseapp.com/buy_item?item_id=101",
+                  "title":"Buy Item"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
