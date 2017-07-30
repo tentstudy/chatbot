@@ -9,3 +9,4 @@ Log
 	Thêm AI Rule cho API get-link-youtube: đã test
 30/7/2017
 	Thêm ảnh bài hát khi get link youtube: đã test
+	Thêm download audio khi get link youtube: đã test
